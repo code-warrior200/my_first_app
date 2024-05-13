@@ -10,7 +10,7 @@ class home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("First page"),
-        backgroundColor: Colors.amberAccent,
+        backgroundColor: Colors.deepPurple,
       ),
       drawer: const Drawer(
         backgroundColor: Colors.deepPurple,
