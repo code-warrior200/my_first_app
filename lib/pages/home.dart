@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types
+// ignore_for_file: camel_case_types, unused_import
 import 'package:flutter/material.dart';
 import 'package:my_first_app/pages/second_page.dart';
 
@@ -12,7 +12,9 @@ class home extends StatelessWidget {
         title: const Text("First page"),
         backgroundColor: Colors.amberAccent,
       ),
-      drawer: const Drawer(),
+      drawer: const Drawer(
+        backgroundColor: Colors.deepPurple,
+      ),
     );
   }
 }
